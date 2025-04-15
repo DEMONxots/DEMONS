@@ -1,4 +1,3 @@
--- Função para pegar fruta
 function pegarFruta()
     for _, fruta in pairs(game.Workspace:GetDescendants()) do
         if fruta:IsA("Tool") and fruta:FindFirstChild("Handle") then
